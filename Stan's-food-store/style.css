@@ -1,0 +1,44 @@
+/* I am styling the main layout for Stan's Food Store */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  background: #28a745;
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 40%;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
